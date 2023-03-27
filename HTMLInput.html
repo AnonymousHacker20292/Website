@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Numbers lol</title>
+        <script>
+            function myFunctionSum(){
+                var number1 = document.getElementById("number1").value;
+                var number2 = document.getElementById("number2").value;
+                var sum = Number(number1) + Number(number2);
+		var result = sum * sum;
+		var final = "Your number is: " + result;
+                alert(final);
+            }
+        </script>
+    </head>
+    <body>
+        <h1>JavaScript example to add two numbers then square them</h1>
+        Input the first number<br>
+        <input type="text" id="number1"  ><br>
+        Input the second number<br>
+        <input type="text" id="number2" ><br>
+        <button onclick="myFunctionSum()"> Show alert! </button>
+    </body>
+</html>
